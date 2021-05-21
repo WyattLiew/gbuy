@@ -2,12 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import { BrowserRouter as Router } from "react-router-dom"
 import reportWebVitals from './reportWebVitals';
+import Auth0ProviderWithHistory from './provider/auth0Provider';
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Router>
+  <Auth0ProviderWithHistory>
     <App />
-  </React.StrictMode>,
+  </Auth0ProviderWithHistory>
+  </Router>,
   document.getElementById('root')
 );
 
