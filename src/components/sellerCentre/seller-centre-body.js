@@ -31,7 +31,7 @@ const SellerCentreBody = () => {
                                 <Card.Text>
                                    View your shop status and update your profile.
                             </Card.Text>
-                                <Button variant="primary">Access</Button>
+                                <Button variant="primary">Access now</Button>
                             </Card.Body>
                         </Card>
                     </Col>
